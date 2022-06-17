@@ -6,7 +6,8 @@ import (
 	"fmt"
 
 	"github.com/alpody/fiber-realworld/db"
-	_ "github.com/alpody/fiber-realworld/docs"
+	// _ "github.com/alpody/fiber-realworld/docs"
+	_ "github.com/LiamDGray/realworld/docs"
 	"github.com/alpody/fiber-realworld/handler"
 	"github.com/alpody/fiber-realworld/router"
 	"github.com/alpody/fiber-realworld/store"

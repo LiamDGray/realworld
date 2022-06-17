@@ -1,0 +1,403 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Jun 17 13:41:16 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+WSLENV = ELECTRON_RUN_AS_NODE/w:WSL_IF_IP/u
+# makefile (from 'Makefile', line 5)
+PORT = 8585
+# default
+.SHELLFLAGS := -c
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+STRIPE_SECRET = sk_test_51K7l6ZGX1klh8pBygxhM9xdUbQHiodvLQnbSyVMcIv8w6ww1pqwWrvl3ijFewkb9UQsYLAVWXrQWMO5Sxl0siyXA00fXsEqLbr
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /home/liam/go/src/github.com/LiamDGray/realworld
+# environment
+GDK_SCALE = 2
+# makefile
+SHELL = /bin/sh
+# environment
+GUARDIAN_SECRET_KEY_ADMINS = 3P/FrQif6eMgeATjt0ur76McDoYUwN4Pixj+i6jAmJFbc4A9Mpsvaeu26xJ9zSQ3
+# environment
+FNM_MULTISHELL_PATH = /tmp/fnm_multishells/9643_1655392594556
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
+# environment
+_ = /mnt/c/Users/liamd/AppData/Local/Programs/Microsoft VS Code/bin/code
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+JAVA_HOME = /home/liam/.cache/coursier/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_linux_hotspot_8u292b10.tar.gz/jdk8u292-b10
+# 'override' directive
+GNUMAKEFLAGS := 
+# makefile (from 'Makefile', line 14)
+APP_STATIC = $(APP)-static
+# environment
+MAKELEVEL := 0
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+FNM_NODE_DIST_MIRROR = https://nodejs.org/dist
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# makefile (from 'Makefile', line 13)
+APP = fiber-rw
+# environment
+VSCODE_CWD = /mnt/c/Users/liamd/AppData/Local/Programs/Microsoft VS Code
+# environment
+GOPROXY = https://proxy.golang.org,direct
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /usr/local/go/bin:/home/liam/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/bin/remote-cli:/home/liam/go/bin:/home/liam/.local/bin:/home/liam/bin:/home/liam/.ops/bin:/usr/lib/node_modules:/tmp/fnm_multishells/9643_1655392594556/bin:/home/liam/.fnm:/home/liam/.cargo/bin:/home/liam/.fly/bin:/home/liam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.UbuntuonWindows_2004.2022.1.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.6/libnvvp:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/Python39/Scripts/:/mnt/c/Python39/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Calibre2/:/mnt/c/Program Files (x86)/GnuPG/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Go/bin:/mnt/c/ProgramData/chocolatey/lib/Elixir/bin:/mnt/c/Program Files/MiKTeX/miktex/bin/x64/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Steel Bank Common Lisp/:/mnt/c/Program Files (x86)/Gow/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.1.1/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Users/liamd/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/liamd/Downloads/openjdk-15.0.2_windows-x64_bin/jdk-15.0.2/bin:/mnt/c/Users/liamd/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/liamd/AppData/Local/Programs/Python/Python310/scripts:/mnt/c/Users/liamd/AppData/Local/Programs/Python/Python310:/mnt/c/Users/liamd/go/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/liamd/AppData/Roaming/cabal/bin:/mnt/c/tools/ghc-9.0.1/bin:/mnt/c/tools/msys64:/mnt/c/Users/liamd/AppData/Local/Pandoc/:/mnt/c/Users/liamd/.dotnet/tools:/mnt/c/Program Files (x86)/mitmproxy/bin:/mnt/c/Program Files (x86)/GitHub CLI/:/mnt/c/Program Files/heroku/bin:/mnt/c/Program Files/WinMerge:/mnt/c/Users/liamd/AppData/Roaming/npm:/mnt/c/Users/liamd/.fly/bin:/mnt/c/Users/liamd/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin:/snap/bin:/home/liam/.cache/coursier/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_linux_hotspot_8u292b10.tar.gz/jdk8u292-b10/bin:/home/liam/.local/share/coursier/bin
+# environment
+FLYCTL_INSTALL = /home/liam/.fly
+# environment
+NAME = Code
+# environment
+GOPATH = /home/liam/go
+# environment
+FNM_LOGLEVEL = info
+# environment
+VSCODE_LOG_STACK = false
+# makefile (from 'Makefile', line 19)
+PASSWORD = password
+# environment
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-3167f4f5-0951-43b4-8321-01d0eab2b694.sock
+# makefile (from 'Makefile', line 15)
+LDFLAGS = "-w -s -extldflags=-static"
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# makefile (from 'Makefile', line 6)
+CONTAINER_PORT = 8585
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = 172.23.176.1:0
+# environment
+WSL_IF_IP = 172.18.80.1
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/liam/go/src/github.com/LiamDGray/realworld
+# default
+.LOADED := 
+# environment
+WSL_INTEROP = /run/WSL/9555_interop
+# makefile (from 'Makefile', line 17)
+USERNAME = u$(shell date +%s)
+# environment
+GOMODCACHE = /home/liam/go/pkg/mod
+# environment
+HOME = /home/liam
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+STRIPE_WEBHOOK_SIGNING_KEY = 
+# environment
+LOGNAME = liam
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+OPS_DIR = /home/liam/.ops
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# makefile (from 'Makefile', line 20)
+NEWMAN_URL = https://github.com/gothinkster/realworld/raw/main/api/Conduit.postman_collection.json
+# environment
+OPENFAAS_URL = http://127.0.0.1:8080
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = liam
+# makefile
+.DEFAULT_GOAL := help
+# environment
+GOROOT = /usr/local/go
+# environment
+LIBVIRT_DEFAULT_URI = qemu:///system
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+VSCODE_WSL_EXT_LOCATION = /mnt/c/Users/liamd/.vscode/extensions/ms-vscode-remote.remote-wsl-0.66.3
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# makefile (from 'Makefile', line 11)
+GOOS = linux
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from 'Makefile', line 18)
+EMAIL = $(USERNAME)@mail.com
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'Makefile', line 8)
+APIURL = http://$(HOST):$(PORT)/api
+# environment
+BROWSER = wslview
+# environment
+STRIPE_PUBLIC = pk_test_51K7l6ZGX1klh8pBy88dZ0NMwhcoRHX8848IetRg1UjTAw93f7x6vhp66DygHnnH2izid66gcDspYJPlydfHS5Mb100h6IYjqi4
+# environment
+GUARDIAN_SECRET_KEY = 3lsxs8f0pj3SvUBd4zrVrdvavZ9zJhGAXBexVkqc7tL1Ck740ibHu6yhijNrNOru
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LIBGL_ALWAYS_INDIRECT = 1
+# environment
+OPENFAAS_PREFIX = liamdgray
+# environment
+FNM_DIR = /home/liam/.fnm
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 12)
+GOARCH = amd64
+# environment
+HOSTTYPE = x86_64
+# automatic
+^F = $(notdir $^)
+# environment
+FNM_ARCH = x64
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_EXTHOST_WILL_SEND_SOCKET = true
+# environment
+WSL_DISTRO_NAME = Ubuntu
+# environment
+MOTD_SHOWN = update-motd
+# makefile (from 'Makefile', line 3)
+HOST = localhost
+# variable set hash-table stats:
+# Load=106/1024=10%, Rehash=0, Collisions=17/132=13%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2048, inode 919074): 25 files, no impossibilities.
+
+# 25 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+build-static:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 46):
+	GOOS=$(GOOS) GOARCH=$(GOARCH) CGO_ENABLED=0  go build -ldflags=$(LDFLAGS)  -o $(APP_STATIC) .
+
+newmand:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 83):
+	@echo  "Error. Change HOST variable to other ip address from local network (for example: 192.168.56.103)"
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+clear-db:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 33):
+	rm -f ./database/realworld.db
+
+rtest:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+ 
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 66):
+	richgo test -v ./...
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-17 10:20:22.2343364
+#  File has been updated.
+#  Successfully updated.
+
+run-container:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 55):
+	chmod o+w ./database && docker run -p 8585:8585 -v $(PWD)/database:/myapp/database  fiber-rw:latest
+
+test:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 60):
+	go test -v ./...
+
+rtest-race:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 69):
+	richgo test -v -race  ./...
+
+build:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 43):
+	GOOS=$(GOOS) GOARCH=$(GOARCH) go build -race -o $(APP) . 
+
+newman:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 76):
+	newman run  --delay-request $(DELAY_REQUEST) --global-var "APIURL=$(APIURL)"  --global-var "USERNAME=$(USERNAME)" --global-var "EMAIL=$(EMAIL)" --global-var "PASSWORD=$(PASSWORD)" $(NEWMAN_URL)
+
+build-image:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 49):
+	docker build -t fiber-rw .
+
+help:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 27):
+	@cat $(MAKEFILE_LIST) | grep -E '^[a-zA-Z_-]+:.*?## .*$$' | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
+
+generate:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 40):
+	go generate .	
+
+test-race:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 63):
+	go test -v -race  ./...
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+run: docs
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 52):
+	go run -race .
+
+download:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 30):
+	go mod download
+
+docs:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 36):
+	go get -u github.com/swaggo/swag/cmd/swag
+	go generate .
+
+newmanx:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 79):
+	npx newman run --bail --verbose  --delay-request $(DELAY_REQUEST) --global-var "APIURL=$(APIURL)"  --global-var "USERNAME=$(USERNAME)" --global-var "EMAIL=$(EMAIL)" --global-var "PASSWORD=$(PASSWORD)" $(NEWMAN_URL) 
+
+# files hash-table stats:
+# Load=21/1024=2%, Rehash=0, Collisions=1/32=3%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 47 / storage = 392 B / avg = 8 B
+# current buf: size = 8162 B / used = 392 B / count = 47 / avg = 8 B
+
+# strcache performance: lookups = 69 / hit rate = 31%
+# hash-table stats:
+# Load=47/8192=1%, Rehash=0, Collisions=1/69=1%
+# Finished Make data base on Fri Jun 17 13:41:16 2022
+
+ 

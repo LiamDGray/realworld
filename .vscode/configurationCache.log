@@ -1,0 +1,1 @@
+{"buildTargets":["build","build-image","build-static","clear-db","docs","download","generate","help","newman","newmand","newmanx","rtest","rtest-race","run","run-container","test","test-race"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
